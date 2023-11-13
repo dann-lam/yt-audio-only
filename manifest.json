@@ -1,6 +1,6 @@
 {
     "manifest_version": 2,
-    "name": "Borderify",
+    "name": "onlyAudioYT",
     "version": "1.0",
 
     "description": "Adds a red border to all webpages matching mozilla.org.",
@@ -11,17 +11,8 @@
 
     "content_scripts": [
       {
-        "matches": ["*://*.mozilla.org/*"],
-        "js": ["Borderify.js"]
-      },
-      {
-        "matches": ["*://*.automatetheboringstuff.com/*"],
-        "js": ["Borderify.js"]
-      },
-
-      {
         "matches": ["*://*.youtube.com/*"],
-        "js": ["Borderify.js"]
+        "js": ["onlyAudio.js"]
       }
     ]
 }
