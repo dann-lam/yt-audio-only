@@ -1,8 +1,8 @@
 {
-  "name": "Youtube audio_only",
+  "name": "Youtube audio_only_button",
   "version": "0.3.11",
   "manifest_version": 2,
-  "description": "listen to Youtube audio (no video is downloaded)",
+  "description": "adds button to YT player based on https://github.com/craftwar/youtube-audio",
   "homepage_url": "https://github.com/craftwar/youtube-audio",
   "icons": {
     "38": "img/icon38.png",
