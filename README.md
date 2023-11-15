@@ -1,13 +1,19 @@
-# yt-audio-only
-Firefox extension that allows users to save on bandwidth by applying an audio only mode. 
+# Youtube audio only Button - Firefox/Chrome Extension
 
-To do list:
-Improve this readme.
+Chrome and Firefox extension for turning off video on youtube upon a button push, and grabbing only the audio stream.
 
-Figure out how to create a Firefox extension
+99% of the actual code comes from [Youtube Audio](https://github.com/craftwar/youtube-audio), who figured out some of the parameters to remove, which I could not actually find any official documentation on.
 
-Figure out how to drill into the YT PLayer and append our own buttons to it (Some extensions do this already)
+Was curious about how these kinds of programs worked, found one that worked pretty well so I walked myself through it and understood how most of it worked. Added a button to enable it, it's not fully fleshed out, but I'm planning on making a similar button for twitch.
 
-Figure out how to change a setting so that YT only feeds the user an audio feed.
+It could also be possible to implement a "download" button in which the audio could be saved as a weba format audio file.
 
-Maybe toggle for bandwidth viewing so we can confirm that we're using less bandwidth??
+My SVG is quite ugly, most of this was me walking through how they accomplished this task and poking and prodding at it until I understood.
+
+To do: Update the SVG
+
+Add additional functionality to the button: Right now it's a one way button instead of a toggle
+
+Download button: Allow user to Download the video as a .weba, we could convert this to an mp3 or something else using FFMPEG.
+
+Add comments on what is doing what, to explain how this works.
