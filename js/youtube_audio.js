@@ -41,9 +41,9 @@ audioOnlyButton.addEventListener("click", function () {
   }
 });
 
-// Once the message is sent, it receives the URL which we assign to videoURL to be sent to the player.
-
+//Triggers a backgroundscript
 chrome.runtime.sendMessage("1");
+// Once the message is sent, it receives the URL which we assign to videoURL to be sent to the player.
 chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
   videoURL = request.url;
   // console.log(`URL from YT_AUD is: ${videoURL}`);
