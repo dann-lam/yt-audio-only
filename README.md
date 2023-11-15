@@ -15,3 +15,7 @@ It could also be possible to implement a "download" button in which the audio co
 ## Usage
 
 Clone the project --> In Chrome --> Extensions --> Manage Extensions --> Load unpacked --> Load the folder --> Activate the extension --> Go to a youtube video --> Push the button --> Enjoy the lesser bandwidth usage!
+
+## To Do
+It would be great if the button was on a toggle.
+It would also be great if there was a to remember which should be on a video, it doesn't make too much sense to hit the button every single time a youtube video is loaded.
