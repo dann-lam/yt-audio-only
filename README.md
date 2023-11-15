@@ -5,7 +5,7 @@ Chrome and Firefox extension for turning off video on youtube upon a button push
 ## Preview Video
 https://github.com/dann-lam/yt-audio-only/assets/15963035/912152e9-683f-441d-8d2d-704a09ad15b2
 
-##Description
+## Description
 99% of the actual code comes from [Youtube Audio](https://github.com/craftwar/youtube-audio), who figured out some of the parameters to remove, which I could not actually find any official documentation on.
 
 Was curious about how these kinds of programs worked, found one that worked pretty well so I walked myself through it and understood how most of it worked. Added a button to enable it, it's not fully fleshed out, but I'm planning on making a similar button for twitch.
